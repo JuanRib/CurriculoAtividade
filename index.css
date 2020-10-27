@@ -1,0 +1,94 @@
+/*Css do header*/
+.cabecalho{
+    background-color:steelblue;
+    padding: 20px 0;
+
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 30px auto;
+}
+.caixa img{
+    width: 150px;
+    border-radius: 30px;
+}
+
+.caixa img:hover{
+    width: 165px;
+    transition: 1s;
+}
+
+.menu{
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+.menu li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a{
+    font-size: 22px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+    transition: 1s;
+}
+/* css do main*/
+.curriculo{
+    background-color: gainsboro;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.objetivos{
+    width: 300px;
+    position: relative;    
+}
+.subtitulos{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.informacoes li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+.mapa-conteudo p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.mapa-conteudo{
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   
+
+}
+p{
+    margin-bottom: 10px;
+}
+.textoNegrito{
+    font-weight: bold;
+}
+
+
+
+
+    
